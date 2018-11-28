@@ -11,6 +11,9 @@ kids_data.each_line do |kid|
   behavior = kid_data_array[1]
   toys     = kid_data_array[2..7]
 
+
+
+
   next unless behavior == 'nice'
 
   filename    = 'letters/nice/' + name + '.txt'
